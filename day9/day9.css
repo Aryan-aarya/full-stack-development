@@ -65,7 +65,7 @@ a:hover{
 .banner {
     display: flex;
     height: 450px;
-    background: linear-gradient(45deg, var(--secondaryColor), var(--primaryColor));
+    background: linear-gradient(150deg, var(--secondaryColor), var(--primaryColor));
     filter: drop-shadow(0px 3px 4px grey);
     /* x,y,radiu,colour */
     justify-content: space-around;
