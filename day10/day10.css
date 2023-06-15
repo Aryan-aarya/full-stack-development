@@ -135,10 +135,10 @@ a:hover{
     padding: 30px;
     filter: drop-shadow(1px 1px 1px grey);
     margin: 5px;
-    background-color:rgb(248, 239, 239);
+    background-color:#fbf9f4;
 }
-.servicefeature{
-    margin-top: 10px;
+.servicefeatures{
+    margin-top: 20px;
 }
 .servicecard:hover{
     background-color: white;
@@ -155,10 +155,10 @@ a:hover{
 .serviceicon:hover{
     background-color: var(--primaryColor);
 }
-.rocketicon{
+.cardicon{
     font-size: 50px;
 }
-.rocketicon:hover{
+.cardicon:hover{
     color: var(--secondaryColor);
 }
 .servicetitle{
