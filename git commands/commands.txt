@@ -1,0 +1,3 @@
+1. for cloneing the reposetory
+       git clone https://github.com/Aryan-aarya/full-stack-development.git
+
