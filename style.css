@@ -9,6 +9,7 @@
     --primaryFont: 'Open Sans', sans-serif;
     --navbarHeight: 3rem;
     --cursivefont: 'Pacifico', cursive;
+    --nearwhite: #f7f6f9;
 }
 
 /* Main CSS */
@@ -29,7 +30,7 @@ a:hover{
 }
 
 .navigation {
-    background-color: var(--whiteColor);
+    background-color: var(--nearwhite);
     height: var(--navbarHeight);
     display: flex;
     justify-content: space-around;
@@ -49,13 +50,11 @@ a:hover{
     /* float:left; */
 }
 
-.contactImage {
-    padding: 8px;
-    height: 2rem;
-}
-
 .menuItems {
-    flex-grow: 2;
+    flex-grow: 1;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 .menuItem {
@@ -64,28 +63,29 @@ a:hover{
 
 .banner {
     display: flex;
-    height: 450px;
     background: linear-gradient(150deg, var(--secondaryColor), var(--primaryColor));
     filter: drop-shadow(0px 3px 4px grey);
     /* x,y,radiu,colour */
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+    flex-wrap: nowrap;
 }
 
 .bannerimage {
     height: 300px;
     border-radius: 100%;
+    filter: drop-shadow(10px 10px 30px var(--primaryAccentColor));
 }
 .greeting {
     font-family: var(--cursivefont);
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 .bannerleft{
     width: 50%;
 }
 .title{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
 }
 .titlespan{
@@ -97,6 +97,7 @@ a:hover{
 .description {
     margin: 30px 0px;
     line-height: 2rem ;
+    font-size: 1rem;
 }
 .showCVbutton{
     background: linear-gradient(white,rgb(205,205,205),rgb(215,215,215));
@@ -129,11 +130,13 @@ a:hover{
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .servicecard{
     border: 1px grey solid;
     padding: 30px;
-    filter: drop-shadow(1px 1px 1px grey);
+    filter: drop-shadow(3px 3px 1px grey);
     margin: 5px;
     background-color:#fbf9f4;
 }
@@ -163,4 +166,31 @@ a:hover{
 }
 .servicetitle{
     font-size: 1.5rem;
+}
+.showCV{
+    margin-bottom: 20px;
+}
+@media (max-width:900px)
+{
+    .greeting {
+        font-size:calc(1vw + 1rem);
+    }
+    .title{
+        font-size: calc(1vw + 1rem);
+    }
+    .description {
+        line-height: calc(.5vw + .5rem);
+    }
+    
+}
+.ContactButton{
+    display:flex;
+    align-items:center;
+    margin-right: 20px;
+    margin-left: 10px;
+    
+}
+.contactImage {
+    padding: 8px;
+    height: 2rem;
 }
