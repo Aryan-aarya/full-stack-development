@@ -181,6 +181,22 @@ a:hover{
     .description {
         line-height: calc(.5vw + .5rem);
     }
+
+}
+@media (max-width:500px)
+{
+    .logoImage{
+        height: calc(1vw + .5rem);
+    }
+    .logoTitle{
+        font-size: calc(1vw + .5rem);
+    }
+    .menuItem{
+        font-size: calc(1vw + .5rem);
+    }
+    .contactImage{
+        height: calc(1vw + .5rem);
+    }
     
 }
 .ContactButton{
