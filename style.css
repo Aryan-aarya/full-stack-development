@@ -300,6 +300,12 @@ a:hover{
     .menuItem{
         font-size: calc(1vw + .3rem);
     }
+    .about{
+        font-size: calc(1vw + .4rem);
+    }
+    .title2{
+        font-size: calc(1vw + .5rem);
+    }
     .contactImage{
         margin-left: 30px;
     }
