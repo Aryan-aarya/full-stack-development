@@ -1,0 +1,30 @@
+li {
+    list-style: none;
+    float: left;
+    margin: 25px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    margin-left:450px;
+}
+/* .ab{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+.xy{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    position: relative;
+
+    left: 20px;
+}
+.abc{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+} */
