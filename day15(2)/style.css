@@ -1,4 +1,4 @@
-/* li {
+li { 
     list-style: none;
     float: left;
     margin: 25px;
@@ -9,60 +9,4 @@ a{
 }
 ul{
     margin-left:450px;
-} */
-.a{
-    height: 100px;
-    width: 150px;
-    border: 1px solid red;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-}
-.b{
-    height: 100px;
-    width: 150px;
-    border: 1px solid red;
-    position: absolute;
-    left: 300px;
-    top: 100px;
-}
-.c{
-    height: 100px;
-    width: 150px;
-    border: 1px solid red;
-    position: absolute;
-    left: 50px;
-    top: 270px;
-}
-.d{
-    height: 100px;
-    width: 150px;
-    border: 1px solid red;
-    position: absolute;
-    top: 30px;
-    left: 1000px;
-}
-.e{
-    height: 100px;
-    width: 150px;
-    border: 1px solid red;
-    position: absolute;
-    left: 1300px;
-    top: 150px;
-}
-.f{
-    height: 100px;
-    width: 150px;
-    border: 1px solid red;
-    position: absolute;
-    left: 800px;
-    top: 200px;
-}
-.g{
-    height: 100px;
-    width: 150px;
-    border: 1px solid red;
-    position: absolute;
-    left: 1050px;
-    top: 270px;
-}
+} 
