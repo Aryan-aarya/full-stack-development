@@ -5860,6 +5860,7 @@ button.close {
 
 .carousel {
   position: relative;
+  margin-top: inherit;
 }
 
 .carousel-inner {
@@ -5952,10 +5953,11 @@ button.close {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 15%;
+  width: 2%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
+  background-color: var(--primaryAccentColor);
 }
 
 .carousel-control-prev:hover, .carousel-control-prev:focus,
@@ -9100,6 +9102,7 @@ a:hover{
   filter: drop-shadow(3px 3px 1px grey);
   margin: 5px;
   background-color:#fbf9f4;
+  transition: all 1s ease-out;
 }
 .servicefeatures{
   margin-top: 20px;
@@ -9107,12 +9110,18 @@ a:hover{
 .servicecard:hover{
   background-color: white;
   filter: drop-shadow(2px 2px 2px #aaaaaa);
+  filter: blur(0);
+  transform: scale(1); 
   .serviceicon{
     background-color: var(--primaryColor);
   }
   .cardicon{
     color: var(--secondaryColor);
   }
+}
+.servicecards:hover .servicecard:not(:hover) {
+  filter: blur(2px);
+  transform: scale(0.9);
 }
 .serviceicon{
   background-color: var(--secondaryColor);
@@ -9288,7 +9297,7 @@ a:hover{
       font-size: calc(1vw + .5rem);
   }
   .menuItem{
-      font-size: calc(1vw + .5rem);
+      font-size: calc(1vw + .4rem);
   }
   .greeting {
       font-size:calc(1vw + .7rem);
@@ -9339,7 +9348,7 @@ a:hover{
 @media (max-width:490px)
 {
   .menuItem{
-      font-size: calc(1vw + .3rem);
+      font-size: calc(1vw + .1rem);
   }
   .about{
       font-size: calc(1vw + .4rem);
